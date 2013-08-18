@@ -19,6 +19,7 @@
         android:layout_height="fill_parent"
         android:layout_centerVertical="true"
         android:text="@string/main_title"
-        android:textSize="@dimen/dip_20"/>
+        android:textColor="@color/red"
+        android:textSize="@dimen/dip_32"/>
         
 </RelativeLayout>

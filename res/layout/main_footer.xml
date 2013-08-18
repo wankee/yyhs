@@ -1,14 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="horizontal"
-    android:layout_width="fill_parent"
-    android:layout_height="50dip"
-    android:background="@color/white">
-   
-    <TextView 
-        android:text="footer text"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"/>
-    
+	android:orientation="horizontal" 
+	android:layout_width="fill_parent" 
+	android:layout_height="50dip"
+	android:gravity="center_vertical"
+	android:background="@color/gray">
+	
+	<RadioButton 
+		android:id="@+id/main_footer_forum"
+		android:layout_width="0dip"
+		android:layout_height="fill_parent"
+		android:layout_weight="1"
+		android:button="@null"
+		android:clickable="true"
+		android:drawableTop="@drawable/main_footer_forum_nor"/>
+	
+	<RadioButton 
+		android:id="@+id/main_footer_region"
+		android:layout_width="0dip"
+		android:layout_height="fill_parent"
+		android:layout_weight="1"
+		android:button="@null"
+		android:clickable="true"
+		android:drawableTop="@drawable/main_footer_region_nor"/>
+
+	<RadioButton 
+		android:id="@+id/main_footer_user"
+		android:layout_width="0dip"
+		android:layout_height="fill_parent"
+		android:layout_weight="1"
+		android:button="@null"
+		android:clickable="true"
+		android:drawableTop="@drawable/main_footer_user_nor"/>
 
 </LinearLayout>
+
